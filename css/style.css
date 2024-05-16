@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu+Sans+Mono&display=swap');
+
+:root{
+    --c-dark:#212529;
+    --c-brand:#4e57d4;
+    --c-brand-light:#6970dd;
+    --c-brand-rgb:78,87,212;
+    --c-body:#727272;
+    --font-base:"Ubuntu Sans Mono", monospace;
+    --box-shadow:0px 15px 25px rgba(0,0,0,0.08);
+    --transition:all 0.5 ease;
+}
+body{
+    font-family:var(--font-base);
+    line-height: 1.7;
+  
+}
+h1,h2,h3,h4,h5,h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--c-brand-light);
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+.section-padding{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.theme-shadow{
+    box-shadow:var(--box-shadow) ;
+}
+
+
+/* NAVBAR */
+.navbar-brand{
+font-weight:600;
+}
+
+.navbar{
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color:var(--c-dark);
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--c-brand);
+}
+
+
+/* NAVBAR */
+
+/* BTN */
+
+.btn{
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 5px 24px;
+}
+
+
+.btn-brand{
+    background-color: var(--c-brand);
+    color: white;
+}
+.btn-brand:hover{
+    background-color:var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+
+/* BTN */
+
+/* ABOUT */
+
+#profile{
+    border-radius: 600px 10px 600px 600px;
+    width:430px;
+    height:430px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+/* ABOUT */
+
+/* ABOUT2 */
+
+#abp{
+    border-radius: 20px ;
+}
+
+.section-title{
+    margin:40px
+}
+
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    background-color: #4e57d4;
+    margin: 16px auto 24px auto;
+}
+
+/* ABOUT2 */
+
+/* ICON */
+
+.iconbox{
+ width: 60px;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;   
+ color: #4e57d4;
+ font-size: 34px;
+}
+
+
+/* ICON */
+
+/* SERVICEs */
+.services:hover{
+    background-color: #6970dd;
+    color: white;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+/* SERVICEs */
+
+/* COUNTER */
+
+#counter{
+    background-color:#4e57d4;
+    color:white;
+}
+
+/* COUNTER */
+
+
+/* CONTACT */
+#contact{
+    background-color: #6970dd;
+}
+
+
+/* CONTACT */
